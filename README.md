@@ -1,2 +1,33 @@
 # demo
 ... welcome ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <style>
+        .progress-bar-container { 
+            background-color: #ff709b;
+            border-radius: 8px;
+            height: 29px;
+            width: 100%;
+        }
+
+        .progress-bar {
+            background-color: #ff99c6;
+            width: 11%; /* Change this value to update the progress */
+            height: 29px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>... please wait...</h1>
+    <h3>... the dreamer fell from a profound slumber...</h3>
+    <div class="progress-bar-container">
+        <div class="progress-bar"></div>
+        <div class="percentage">Progress: 11%</div>
+    </div>
+</body>
+</html>
